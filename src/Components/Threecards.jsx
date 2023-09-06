@@ -25,7 +25,7 @@ const Threecards = () => {
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
           </div>
           
-          {/* Enter Projects */}
+          {/*Third Card Enter Projects */}
           <div class="col-span-1 bg-black p-4 border-t-2">
             <img src={img23} alt='image23' className="h-16" />
             <h1 className="text-lg font-bold text-white py-5 ">Enter your projects </h1>
