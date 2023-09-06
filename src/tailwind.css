@@ -1,10 +1,3 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-
-/* Define custom colors */
-@layer utilities {
-  .bg-custom-color {
-    background-color: #181725;
-  }
-}

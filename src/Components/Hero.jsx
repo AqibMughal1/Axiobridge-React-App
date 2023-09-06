@@ -28,11 +28,11 @@ const Hero = () => {
       <Mains />
 
       <div className="bg-black">
-        <div className="mx-6 md:mx-60 border-2 border-solid border-[#1f70af] rounded-3xl drop-shadow-2xl p-6">
-          <h1 className="text-white text-center font-semibold text-md md:text-2xl pt-8">Tools, Technologies and Languages</h1>
-          <h1 className="text-white text-center text-sm md:text-xl">________________________________________</h1>
+        <div className="mx-6 md:mx-60 border-2 border-solid border-[#1f70af] rounded-tr-3xl rounded-tl-3xl drop-shadow-2xl p-6">
+          <h1 className="text-white text-center font-semibold text-md md:text-2xl md:pt-8">Tools, Technologies and Languages</h1>
+          <h1 className="text-white text-center text-sm md:text-xl">_____________________________________</h1>
 
-          <div className="grid grid-cols-5 md:grid-cols-7 gap-8 py-10">
+          <div className="grid grid-cols-5 md:grid-cols-7 gap-8 md:py-10 py-5">
             <img src={img1} alt="image1" className="h-8 md:h-20" />
             <img src={img2} alt="image2" className="h-8 md:h-20" />
             <img src={img3} alt="image3" className="h-8 md:h-20" />
@@ -57,7 +57,7 @@ const Hero = () => {
 
         </div>
 
-        <div className="bg-gray-800 mx-6 md:mx-60 rounded-3xl flex flex-col gap-8 md:flex-row justify-around text-white text-xl font-semibold text-center py-10">
+        <div className="bg-gray-800 mx-6 md:mx-60 rounded-br-3xl rounded-bl-3xl flex flex-col gap-8 md:flex-row justify-around text-white text-xl font-semibold text-center  py-5 md:py-10">
           <div>
             <h1>Projects Done</h1>
             <h1 className="text-[#1f70af]">300+</h1>

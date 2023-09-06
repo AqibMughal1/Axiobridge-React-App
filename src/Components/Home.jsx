@@ -4,6 +4,7 @@ import Hero from './Hero'
 import WhyUs from './WhyUs'
 import Threecards from './Threecards'
 import Ourclients from './Ourclients'
+import Toolcard from './Toolcard'
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
         <WhyUs/>
         <Threecards/>
         <Ourclients/>
+        <Toolcard/>
     </div>
   )
 }
