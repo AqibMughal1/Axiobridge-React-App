@@ -14,7 +14,7 @@ const Mains = () => {
                     Way To Design & Development Themes Your <span className="text-[#1F70AF]">Future</span>
                 </h1>
 
-                <h1 className="px-4 sm:px-80 pb-6 sm:pb-10 text-sm sm:text-lg">
+                <h1 className="px-4 sm:px-80 pb-6 sm:pb-10 text-sm sm:text-sm">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                     when an unknown printer took a galley of type and scrambled it to make a type specimen book.
