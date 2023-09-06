@@ -14,8 +14,8 @@ const Home = () => {
         <Hero/>
         <WhyUs/>
         <Threecards/>
-        <Ourclients/>
         <Toolcard/>
+        <Ourclients/>
     </div>
   )
 }

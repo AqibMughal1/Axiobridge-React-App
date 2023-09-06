@@ -4,7 +4,7 @@ import img28 from '../Assets/Group 40.png'
 const Toolcard = () => {
     return (
         <>
-            <div className="bg-black">
+            <div className="bg-black py-14">
                 <div className="bg-[#181725] md:mx-72 rounded-3xl flex-col md:flex md:flex-row">
                     <div className="p-14">
                         <img src={img28} alt='image28' className="md:h-96 " />
