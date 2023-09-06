@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import Hero from './Hero'
 import WhyUs from './WhyUs'
 import Threecards from './Threecards'
+import Ourclients from './Ourclients'
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
         <Hero/>
         <WhyUs/>
         <Threecards/>
+        <Ourclients/>
     </div>
   )
 }
