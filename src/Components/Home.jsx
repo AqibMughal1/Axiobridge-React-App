@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import Hero from './Hero'
 import WhyUs from './WhyUs'
-import Generate from './Generate'
+import Threecards from './Threecards'
 
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
         <Navbar/>
         <Hero/>
         <WhyUs/>
-        <Generate/>
+        <Threecards/>
     </div>
   )
 }
