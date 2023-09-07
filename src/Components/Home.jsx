@@ -5,6 +5,7 @@ import WhyUs from './WhyUs'
 import Threecards from './Threecards'
 import Ourclients from './Ourclients'
 import Toolcard from './Toolcard'
+import Services from './Services'
 
 
 const Home = () => {
@@ -15,7 +16,9 @@ const Home = () => {
         <WhyUs/>
         <Threecards/>
         <Toolcard/>
+        <Services/>
         <Ourclients/>
+
     </div>
   )
 }
