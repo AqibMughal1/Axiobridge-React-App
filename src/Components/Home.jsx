@@ -7,7 +7,6 @@ import Ourclients from './Ourclients'
 import Toolcard from './Toolcard'
 import Services from './Services'
 
-
 const Home = () => {
   return (
     <div>
