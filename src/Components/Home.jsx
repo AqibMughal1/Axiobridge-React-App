@@ -5,14 +5,14 @@ import Threecards from './Threecards'
 import Ourclients from './Ourclients'
 import Toolcard from './Toolcard'
 import Services from './Services'
-import Whyus from './Whyus'
+// import Whyus from './Whyus'
 
 const Home = () => {
   return (
     <div>
         <Navbar/>
         <Hero/>
-        <Whyus/>
+        {/* <Whyus/> */}
         <Threecards/>
         <Toolcard/>
         <Services/>
