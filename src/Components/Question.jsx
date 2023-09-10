@@ -1,6 +1,6 @@
 import { BsArrowRight, BsArrowDown } from "react-icons/bs";
 
-function Question({isOpen, handleChange}) {
+function Question({ isOpen, handleChange }) {
   return (
     <div className="flex flex-col gap-6">
       <div className="flex flex-row justify-between">
@@ -16,14 +16,14 @@ function Question({isOpen, handleChange}) {
             onClick={handleChange}
           />
         )}
+
       </div>
 
       {isOpen ? (
         <p className="w-full py-12 px-6 border-2 rounded-lg border-[#1F70AF] bg-black text-white text-lg transition-all ease-in-out duration-2000">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s.
-        </p>
+          since the 1500s. </p>
       ) : (
         <div className="w-full bg-white h-[1px]"></div>
       )}
