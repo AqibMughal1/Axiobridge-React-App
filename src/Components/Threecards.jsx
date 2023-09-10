@@ -6,7 +6,7 @@ import img23 from '../Assets/image 2.png'
 const Threecards = () => {
   return (
     <>
-      <div class="container mx-auto bg-black">
+      <div class="container mx-auto bg-black w-full">
         <div class="md:flex">
           {/* <!-- First generate Design --> */}
           <div className="mx-14 md:w-1/3 bg-black p-4 border-t-2 ">
