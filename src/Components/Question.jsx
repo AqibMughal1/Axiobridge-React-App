@@ -6,8 +6,8 @@ function Question({ isOpen, handleChange }) {
       <div className="flex flex-row justify-between">
         <h3 className="text-2xl text-white">Generate Your Design</h3>
         {isOpen ? 
-        ( <BsArrowDown className="text-[#1F70AF] text-3xl cursor-pointer" onClick={handleChange}  />
-        ) : (
+        ( <BsArrowDown className="text-[#1F70AF] text-3xl cursor-pointer" onClick={handleChange}  /> )
+         : (
           <BsArrowRight className="text-[#1F70AF] text-3xl cursor-pointer" onClick={handleChange} />
         )}
 
