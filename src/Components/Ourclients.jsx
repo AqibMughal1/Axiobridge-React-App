@@ -7,7 +7,7 @@ import img27 from '../Assets/Happyzone.png'
 const Ourclients = () => {
   return (
     <>
-    <div className="bg-black text-white">
+    <div className="bg-black text-white py-20">
         <h1 className="text-lg font-bold md:text-2xl text-center py-10 md:py-20">Our Clients</h1>
         <div className="mx-5 flex justify-around pb-10">
             <img src={img24} alt="image24" className="h-16 md:h-52" />
