@@ -29,8 +29,7 @@ const Hero = () => {
 
       <div className="bg-black ">
         <div className="mx-6 md:mx-60 border-2 border-solid border-[#1f70af] rounded-tr-3xl rounded-tl-3xl drop-shadow-2xl p-6">
-          <h1 className="text-white text-center font-semibold text-md md:text-2xl md:pt-8">Tools, Technologies and Languages</h1>
-          <h1 className="text-white text-center text-sm md:text-xl">_____________________________________</h1>
+          <h1 className="text-white text-center underline underline-offset-8 font-semibold text-md md:text-2xl md:pt-8">Tools, Technologies and Languages</h1>
 
           <div className="grid grid-cols-5 md:grid-cols-7 gap-8 md:py-10 py-5">
             <img src={img1} alt="image1" className="h-8 md:h-20" />
