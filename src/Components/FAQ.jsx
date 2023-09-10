@@ -15,16 +15,16 @@ function FAQ() {
   };
 
   return (
-    <div className="relative w-full h-[1460px] bg-[#181725]">
+    <div className="relative w-full h-[1260px] bg-[#181725]">
       <img
         src={Vector}
         alt="Gradient Line"
-        className="absolute -top-12 -left-48 w-full h-full z-10"
+        className="absolute -top-60 -left-48 w-full h-full z-10"
       />
       <img
         src={Vector2}
         alt="Gradient Line"
-        className="absolute -top-0 -left-32 w-full h-full z-10"
+        className="absolute -top-32 -left-48 w-full h-full z-10"
       />
       <div className="relative z-20 flex flex-col items-center w-full h-full">
         <h1 className="text-4xl font-bold text-white mt-32 px-12">
