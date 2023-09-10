@@ -12,7 +12,7 @@ const Mains = () => {
                     <h1 className="md:text-xl text-xl">Welcome To Axiobridge</h1>
 
                     {/* <!-- Main Heading --> */}
-                    <h1 className="md:text-5xl text-2xl md:px-72 px-14 md:text-justify tracking-wide md:pt-4 pt-6 md:pb-6 pb-8 font-semibold">Generate
+                    <h1 className="md:text-4xl text-2xl md:px-80 px-14 md:text-center tracking-wide md:pt-4 pt-6 md:pb-6 pb-8 font-semibold">Generate
                         <span className="text-[#1F70AF]"> Faster </span>
                         Way To Design & Development Themes Your <span className="text-[#1F70AF]">Future</span>
                     </h1>

@@ -6,6 +6,7 @@ import Ourclients from './Ourclients'
 import Toolcard from './Toolcard'
 import Services from './Services'
 import Whyus from './Whyus'
+import Footer from './Footer'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <Toolcard/>
         <Services/>
         <Ourclients/>
+        <Footer/>
 
 
     </div>
