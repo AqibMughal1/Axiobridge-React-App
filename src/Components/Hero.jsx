@@ -27,7 +27,7 @@ const Hero = () => {
     <>
       <Mains />
 
-      <div className="bg-black">
+      <div className="bg-black pb-20 ">
         <div className="mx-6 md:mx-60 border-2 border-solid border-[#1f70af] rounded-tr-3xl rounded-tl-3xl drop-shadow-2xl p-6">
           <h1 className="text-white text-center font-semibold text-md md:text-2xl md:pt-8">Tools, Technologies and Languages</h1>
           <h1 className="text-white text-center text-sm md:text-xl">_____________________________________</h1>
